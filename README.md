@@ -2,8 +2,11 @@ Quick program to remind you to take breaks throughout the day (e.g., to meditate
 
 Dependencies:
 -Python 3
+
 -'time' package
+
 -'playsound' package
+
 -'datetime' package
 
 To use:
