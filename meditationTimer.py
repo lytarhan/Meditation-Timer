@@ -62,15 +62,16 @@ def meditationTimer(step, params = None):
 		time.sleep(60*timerLength) # pauses the code until the timer is up
         
 		# when the timer's up, ring a gong:
+		print('time for a ' + breakLengthString + '-minute break...')
 		playsound('gong1.wav')
         
         # start a timer for the break
-		print('time for a ' + breakLengthString + '-minute break...')
 		time.sleep(60*breakLength)
         
         # play another gong to signal that the break is over
-		playsound('gong2.wav')
 		print('...break is over - back to work!')
+		playsound('gong2.wav')
+		
 		
 		if timerType == '1': # one-time timer, so break out of the loop
 			done = 1;
