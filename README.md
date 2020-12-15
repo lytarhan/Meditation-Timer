@@ -1,6 +1,6 @@
 Quick program to remind you to take breaks throughout the day (e.g., to meditate or stretch)
 
-Dependencies:
+Dependencies:  
 -Python 3  
 -'time' package  
 -'playsound' package  
